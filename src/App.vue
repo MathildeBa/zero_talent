@@ -1,17 +1,23 @@
 <template>
   <div id="app">
     <zeroTalents></zeroTalents>
+    <sousTitre></sousTitre>
+    <liste></liste>
     
   </div>
 </template>
 
 <script>
 import zeroTalents from './components/zeroTalents.vue';
+import sousTitre from './components/sousTitre.vue';
+import liste from './components/liste.vue'
 
 export default {
   name: 'app',
   components: {
-    zeroTalents
+    zeroTalents,
+    sousTitre,
+    liste
   }
 }
 </script>

@@ -1,6 +1,7 @@
 <template>
 <div id="app">
-  <h2 > {{title1}} </h2>
+  <h1>{{title2}}</h1>
+
 </div>
 </template>
 
@@ -10,7 +11,8 @@
       name: 'app',
       data(){
         return {
-          title1 : '10 THINGS THAT REQUIRE'        } 
+          title2 : 'ZERO TALENT',
+        } 
       }
     }
 
